@@ -2,12 +2,12 @@
 
 This is an easy to go gulp boilerplate for developing and building HTML templates for Mailchimp. It takes your source code and does following things for you:
 
-* Copies your stylesheets and into the HTML template
+* Copies your stylesheets into the HTML template
 * Inlines the styles to your HTML element's style attributes
-* Copy your assets
+* Copies your assets
 * ZIPs your template so it's ready for uploading to Mailchimp.
 
-In addition there is a watcher task which helps you the preview your changes during development.
+In addition there is a watcher task which helps you to preview your changes during development.
 
 ## Quick start
 
