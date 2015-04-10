@@ -1,0 +1,18 @@
+{
+  "name": "adrianos-newsletter",
+  "authors": [
+    "René Stalder <rene@whatwedo.ch>"
+  ],
+  "private": true,
+  "devDependencies": {
+    "gulp": "~3.5.5",
+    "gulp-include": "~0.2.2",
+    "gulp-livereload": "~2.0.0",
+    "gulp-mc-inline-css": "~0.1.6",
+    "gulp-substituter": "^0.3.0",
+    "gulp-watch": "~0.6.5",
+    "gulp-zip": "^2.0.2",
+    "lazypipe": "~0.2.1",
+    "rimraf": "^2.2.8"
+  }
+}

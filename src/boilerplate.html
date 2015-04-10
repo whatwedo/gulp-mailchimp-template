@@ -1,0 +1,385 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="ink.css"> <!-- For testing only -->
+
+  <style type="text/css">
+  /*
+  //= include ink.css
+  */
+  </style>
+  <!--[if mso]>
+  <style>
+  .article_thumbnail {
+      width: 130px!important;
+    }
+  </style>
+  <![endif]-->
+  <!-- substitute:mediaqueryHeader -->
+  <!-- substitute:mediaqueryBody -->
+  <!-- substitute:mediaqueryFooter -->
+</head>
+<body>
+  <table class="body">
+    <tr>
+      <td class="center" align="center" valign="top">
+        <center>
+
+          <!-- LAYOUT -->
+
+          <table class="container">
+            <tr>
+              <td>
+                <!-- TOPBAR-->
+                <table class="row">
+                  <tr>
+                    <td class="wrapper last">
+
+                      <table class="twelve columns">
+                        <tr>
+                          <td class="center header-actions">
+
+                            <center>
+                              <a href="*|ARCHIVE|*" target="_blank">E-Mail im Browser ansehen</a> | <a href="*|UNSUB|*" target="_blank"><span class="white-space: nowrap;">Newsletter abbestellen</span></a>
+                            </center>
+
+                          </td>
+                          <td class="expander"></td>
+                        </tr>
+                      </table>
+
+                    </td>
+                  </tr>
+                </table>
+                <!-- /TOPBAR -->
+                <!-- LOGO -->
+                <table class="row logo">
+                  <tr>
+                    <td class="wrapper last">
+
+                      <table class="twelve columns">
+                        <tr>
+                          <td class="center">
+
+                            <center>
+                              <a href="*|LIST:URL|*" target="_blank">
+                                <img class="center adrianos-logo_header" width="186" height="93" src="images/logo-email.jpg" alt="Adrianos Bar & Café">
+                              </a>
+                            </a>
+                          </center>
+
+                        </td>
+                        <td class="expander"></td>
+                      </tr>
+                    </table>
+
+                  </td>
+                </tr>
+              </table>
+              <!-- /LOGO -->
+              <!-- INTRO -->
+              <table class="row">
+                <tr>
+                  <td class="wrapper last">
+
+                    <table class="twelve columns">
+                      <tr>
+                        <td>
+                          <h1 mc:edit="intro_title">Lorem Ipsum Dolor Sit Amet</h1>
+                        </td>
+                        <td class="expander"></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p mc:edit="intro_text">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+                          </p>
+                        </td>
+                        <td class="expander"></td>
+                      </tr>
+                    </table>
+
+                  </td>
+                </tr>
+              </table>
+              <!-- /INTRO -->
+              <!-- TABLE OF CONTENTS -->
+              <table class="row row_toc" mc:hideable>
+                <tr>
+                  <td class="wrapper last">
+
+                    <table class="twelve columns">
+                      <tr>
+                        <td>
+                          <h2>Inhalt</h2>
+                        </td>
+                        <td class="expander"></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          *|MC:TOC|*
+                        </td>
+                        <td class="expander"></td>
+                      </tr>
+                    </table>
+
+                  </td>
+                </tr>
+              </table>
+              <!-- /IMAGE/TEXT -->
+              <!-- hr -->
+              //= include partials/_ribbon-header.html
+              <span mc:edit>Shop</span>
+              //= include partials/_ribbon-footer.html
+              <!-- /hr -->
+
+              <!-- PRODUCTS -->
+
+              <!-- Two Columns -->
+              <table mc:repeatable>
+                <tr>
+                  <td>
+
+                    <table class="row">
+                      <tr>
+                        <td class="wrapper">
+
+                          <table class="six columns">
+                            <tr>
+                              <td>
+
+                                <table class="product">
+                                  <tr>
+                                    <td>
+                                      <img mc:edit="product_thumbnail_1" class="product_thumbnail" height="224" width="260" src="http://placehold.it/560x448&text=Produkt%20Bild">
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      <span mc:edit="product_price_1" class="product-price">CHF 0.00</span>
+                                      <h2 mc:edit="product_name_1" class="product-name">Produktname</h2>
+                                    </td>
+                                  </tr>
+                                </table>
+
+                              </td>
+                              <td class="expander"></td>
+                            </tr>
+                          </table>
+
+                        </td>
+                        <td class="wrapper last">
+
+                          <table class="six columns">
+                            <tr>
+                              <td>
+
+                                <table class="product">
+                                  <tr>
+                                    <td>
+                                      <img mc:edit="product_thumbnail_2" height="224" width="280" src="http://placehold.it/560x448&text=Produkt%20Bild">
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      <span mc:edit="product_price_2" class="product-price">CHF 0.00</span>
+                                      <h2 mc:edit="product_name_2" class="product-name">Produktname</h2>
+                                    </td>
+                                  </tr>
+                                </table>
+
+                              </td>
+                              <td class="expander"></td>
+                            </tr>
+                          </table>
+
+                        </td>
+                      </tr>
+                    </table>
+
+                  </td>
+                </tr>
+              </table>
+
+
+              <!-- one Columns -->
+              <table mc:repeatable>
+                <tr>
+                  <td>
+
+                    <table class="row">
+                      <tr>
+                        <td class="wrapper last">
+
+                          <table class="twelve columns">
+                            <tr>
+                              <td>
+
+                                <table>
+                                  <tr>
+                                    <td>
+                                      <img mc:edit="product_thumbnail_2" height="224" width="600" src="http://placehold.it/600x448&text=Produkt%20Bild">
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      <span mc:edit="product_price_2" class="product-price">CHF 0.00</span>
+                                      <h2 mc:edit="product_name_2" class="product-name">Produktname</h2>
+                                    </td>
+                                  </tr>
+                                </table>
+
+                              </td>
+                              <td class="expander"></td>
+                            </tr>
+                          </table>
+
+                        </td>
+                      </tr>
+                    </table>
+
+                  </td>
+                </tr>
+              </table>
+
+
+
+              <table class="row row_calltoaction" mc:hideable>
+                <tbody>
+                  <tr>
+                    <td>
+                      <a href="https://adrianos.ch/shop/" class="button calltoaction"><span>Zum Shop</span></a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <!-- /PRODUCTS -->
+              <!-- hr -->
+              //= include partials/_ribbon-header.html
+              <span mc:edit>Aktuelles</span>
+              //= include partials/_ribbon-footer.html
+              <!-- /hr -->
+              <!-- IMAGE/TEXT -->
+              <table mc:repeatable>
+                <tr>
+                  <td>
+                    <table class="row">
+                      <tr>
+                        <td class="wrapper">
+                          <h2 mc:edit="article_title" class="mc-toc-title">Lorem Ipsum Dolor</h2>
+                        </td>
+                      </tr>
+                    </table>
+                    <table class="row">
+                      <tr>
+                        <td class="wrapper">
+
+                          <table class="three columns">
+                            <tr>
+                              <td>
+
+                                <img mc:edit="article_thumbnail" class="article_thumbnail" height="130" width="130" src="http://placehold.it/600x600&text=Vorschau%20Bild">
+
+                              </td>
+                              <td class="expander"></td>
+                            </tr>
+                          </table>
+
+                    </td>
+                    <td class="wrapper last">
+
+                      <table class="nine columns">
+                        <tr>
+                          <td>
+                            <p mc:edit="article_summary">
+                              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+                            </p>
+                          </td>
+                          <td class="expander"></td>
+                        </tr>
+                      </table>
+
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+
+          <table class="row social-media">
+            <tr>
+              <td class="wrapper last">
+
+                <table class="twelve columns">
+                  <tr>
+                    <td class="center">
+                      <center>
+                        *|FACEBOOK:LIKE|*
+                        *|TWITTER:TWEET|*
+                        *|GOOGLE:PLUSONE|*
+                      </center>
+                    </td>
+                    <td class="expander"></td>
+                  </tr>
+                </table>
+
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <table class="row footer"> <!-- Styles go on the row -->
+      <tr>
+        <td class="center" align="center"> <!-- Center the container -->
+          <center>
+
+            <table class="container"> <!-- Container restricts the content width -->
+              <tr>
+                <td class="wrapper last"> <!-- Wrapper stays on the inner table -->
+
+                  <table class="twelve columns">
+                    <tr>
+                      <td class="center">
+
+                        <center>
+                          *|LIST:DESCRIPTION|* <br />
+
+                          <a href="*|UNSUB|*" target="_blank">Newsletter abbestellen</a> &middot;
+                          <a href="*|UPDATE_PROFILE|*" target="_blank">Abonnement anpassen</a>
+
+                          *|HTML:LIST_ADDRESS_HTML|*<br />
+
+
+                          Copyright (C) *|CURRENT_YEAR|* *|LIST:COMPANY|* Alle Rechte vorbehalten.
+
+                          <br/>
+                          <div class="mailchimp__logo">
+                            *|IF:REWARDS|* *|REWARDS|* *|END:IF|*
+                          </div>
+
+                        </center>
+
+                      </td>
+                      <td class="expander"></td>
+                    </tr>
+                  </table>
+
+                </td>
+              </tr>
+            </table>
+
+          </center>
+        </td>
+      </tr>
+    </table>
+  </center>
+</td>
+</tr>
+</table>
+</body>
+</html>
